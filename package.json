@@ -1,0 +1,35 @@
+{
+  "name": "filter-library-test",
+  "version": "1.0.0",
+  "description": "plugin que aplica filtros a las imagenes en un contenedor",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter nyan",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvillablanca/gallery-library.git"
+  },
+  "keywords": [
+    "filter",
+    "filtros",
+    "filter-img"
+  ],
+  "author": "genoveva villablanca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvillablanca/gallery-library/issues"
+  },
+  "homepage": "https://github.com/gvillablanca/gallery-library#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.15.0",
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
+}
